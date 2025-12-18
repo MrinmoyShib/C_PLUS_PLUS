@@ -4,7 +4,7 @@ vector<int> vec;
 int n;
 
 int Binary_Search(int val) {
-  int low = 0, high = n 1;
+  int low = 0, high = n ;
 
   while (low <= high) {
     int mid = (low + high) / 2;
