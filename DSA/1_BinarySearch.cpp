@@ -4,16 +4,16 @@ vector<int> vec;
 int n;
 
 int Binary_Search(int val) {
-  int low = 0, high = n ;
+  int low = 0, high = n - 1 ;
 
   while (low <= high) {
     int mid = (low + high) / 2;
     if (vec[mid] == val) {
       return mid;
     } else if (vec[mid] > val) {
-      low = mid + 1;
-    } else {
       high = mid - 1;
+    } else {
+      low = mid + 1;
     }
   }
   return -1;
