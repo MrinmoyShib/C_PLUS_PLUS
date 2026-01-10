@@ -93,4 +93,4 @@ I’m building this in public to stay accountable. Contributions are welcome!
 </p>
 
 ---
-*Keep pushing the boundaries of your logic!* 💻✨
+“Optimizing for speed, designed for clarity.” 🏎️💨
