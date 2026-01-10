@@ -56,7 +56,7 @@ Tracking my familiarity with the most powerful part of C++:
 
 ## 🛠 Tech Stack & Tools
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=cpp,git,github,visualstudio,vscode,cmake" alt="C++ Journey Stack" />
+  <img src="https://skillicons.dev/icons?i=cpp,git,github,visualstudio,vscode" alt="C++ Journey Stack" />
 </p>
 
 ---
