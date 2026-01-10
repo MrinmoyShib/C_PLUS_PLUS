@@ -86,7 +86,7 @@ I’m building this in public to stay accountable. Contributions are welcome!
 * **Found a bug?** Open an 📂 **Issue**.
 * **Support:** If you find this useful, give it a ⭐ **Star**!
 
-> "The only way to learn a new programming language is by writing programs in it." — *Dennis Ritchie*
+> "C makes it easy to shoot yourself in the foot; C++ makes it harder, but when you do, it blows your whole leg off." — **Bjarne Stroustrup**
 
 <p align="center">
   <img src="https://views.whatilearened.today/views/github/MrinmoyShib/C_PLUS_PLUS.svg" alt="Views" />
