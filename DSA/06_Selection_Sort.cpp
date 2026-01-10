@@ -3,13 +3,15 @@ using namespace std;
 vector<int> vec;
 int n;
 
-void bubble_sort(int n) {
+void selection_sort(int n) {
   for (int i = 0; i < n - 1; i++) {
-    for (int j = 0; j < n - i - 1; j++) {
-      if (vec[j] > vec[j + 1]) {
-        swap(vec[j], vec[j + 1]);
+    int smallestIndex = i;
+    for (int j = i + 1; j < n; j++) {
+      if (vec[j] < vec[smallestIndex]) {
+        smallestIndex = j;
       }
     }
+    swap(vec[i], vec[smallestIndex]);
   }
 }
 
@@ -31,6 +33,6 @@ int main() {
     vec.push_back(x);
   }
 
-  bubble_sort(vec.size());
+  selection_sort(vec.size());
   print_sort(vec.size());
 }
